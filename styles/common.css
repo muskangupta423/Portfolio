@@ -1,0 +1,195 @@
+.text-primary-theme {
+  color: #00e5ec !important;
+}
+
+.text-secondary-theme {
+  color: #efefef !important;
+}
+
+.font-w-100 {
+  font-weight: 100 !important;
+}
+
+.font-w-200 {
+  font-weight: 200 !important;
+}
+
+.font-w-300 {
+  font-weight: 300 !important;
+}
+
+.font-w-400 {
+  font-weight: 400 !important;
+}
+
+.font-w-500 {
+  font-weight: 500 !important;
+}
+
+.font-w-700 {
+  font-weight: 700 !important;
+}
+
+.font-w-900 {
+  font-weight: 900 !important;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.flex-item {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.fx-b5 {
+  flex-basis: 5% !important;
+  max-width: 5% !important;
+}
+
+.fx-b10 {
+  flex-basis: 10% !important;
+  max-width: 10% !important;
+}
+
+.fx-b12 {
+  flex-basis: 12% !important;
+  max-width: 12% !important;
+}
+
+.fx-b12_5 {
+  flex-basis: 12.5% !important;
+  max-width: 12.5% !important;
+}
+
+.fx-b15 {
+  flex-basis: 15% !important;
+  max-width: 15% !important;
+}
+
+.fx-b16 {
+  flex-basis: 16% !important;
+  max-width: 16% !important;
+}
+
+.fx-b16_6 {
+  flex-basis: 16.6% !important;
+  max-width: 16.6% !important;
+}
+
+.fx-b20 {
+  flex-basis: 20% !important;
+  max-width: 20% !important;
+}
+
+.fx-b25 {
+  flex-basis: 25% !important;
+  max-width: 25% !important;
+}
+
+.fx-b30 {
+  flex-basis: 30% !important;
+  max-width: 30% !important;
+}
+
+.fx-b33 {
+  flex-basis: 33.33% !important;
+  max-width: 33.33% !important;
+}
+
+.fx-b35 {
+  flex-basis: 35% !important;
+  max-width: 35% !important;
+}
+
+.fx-b40 {
+  flex-basis: 40% !important;
+  max-width: 40% !important;
+}
+
+.fx-b45 {
+  flex-basis: 45% !important;
+  max-width: 45% !important;
+}
+
+.fx-b50 {
+  flex-basis: 50% !important;
+  max-width: 50% !important;
+}
+
+.fx-b60 {
+  flex-basis: 60% !important;
+  max-width: 60% !important;
+}
+
+.fx-b65 {
+  flex-basis: 65% !important;
+  max-width: 65% !important;
+}
+
+.fx-b70 {
+  flex-basis: 70% !important;
+  max-width: 70% !important;
+}
+
+.fx-b75 {
+  flex-basis: 75% !important;
+  max-width: 75% !important;
+}
+
+.fx-b80 {
+  flex-basis: 80% !important;
+  max-width: 80% !important;
+}
+
+.fx-b85 {
+  flex-basis: 85% !important;
+  max-width: 85% !important;
+}
+
+.fx-b90 {
+  flex-basis: 90% !important;
+  max-width: 90% !important;
+}
+
+.fx-b95 {
+  flex-basis: 95% !important;
+  max-width: 95% !important;
+}
+
+.fx-b100 {
+  flex-basis: 100% !important;
+  max-width: 100% !important;
+}
+
+.listStyleNone {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.opacity-0 {
+  opacity: 0 !important;
+}
+
+.opacity-5 {
+  opacity: 0.5 !important;
+}
+
+.opacity-6 {
+  opacity: 0.6 !important;
+}
+
+.opacity-7 {
+  opacity: 0.7 !important;
+}
+
+.opacity-8 {
+  opacity: 0.8 !important;
+}
+.pd-t-10 {
+  padding-top: 10px !important;
+}
