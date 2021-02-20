@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css" 
             integrity="sha384-IIED/eyOkM6ihtOiQsX2zizxFBphgnv1zbe1bKA+njdFzkr6cDNy16jfIKWu4FNH" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -14,42 +15,49 @@
         <link rel="icon" href="images/MuskanGupta.png" type="image/icon">
     </head>
     <body>
-        <header class="header-global">
-            <div class="flex">
-                <div class="fx-b30">
-                    <div class="my-image">
-                        <img src="images/MuskanGupta.png" alt="my image">
+        <header class="header-global" id="header">
+            <nav class="navbar navbar-expand-md">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6">
+                        <div class="my-image">
+                            <img src="images/MuskanGupta.png" alt="my image">
+                        </div>
+                        <a class="navbar-brand text-dark text-normal mr-lg-5" href="#">
+                            <div class="name">Muskan Gupta</div>
+                            <div class="position">Frontend Developer</div>
+                        </a>
                     </div>
-                    <a class="navbar-brand text-dark text-normal mr-lg-5" href="#">
-                        <div class="name">Muskan Gupta</div>
-                        <div class="position">Frontend Developer</div>
-                    </a>
+                    <div class="col-xl-9 col-md-6" id="navbar_global">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse animate__animated animate__backInRight animate__fast" id="collapsibleNavbar">
+                            <ul class="navbar-nav row list-style-none">
+                                <li class="nav-item col-xl-3">
+                                    <a href="#work" class="nav-link active">
+                                        <span class="nav-link-inner--text">Work</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item col-xl-3">
+                                    <a href="#intro" class="nav-link">
+                                        <span class="nav-link-inner--text">About</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item col-xl-3">
+                                    <a href="#" target="_blank" class="nav-link">
+                                        <span class="nav-link-inner--text">Resume</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item col-xl-3">
+                                    <a href="#contact" class="nav-link">
+                                        <span class="nav-link-inner--text">Contact</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="fx-b70" id="navbar_global">
-                    <ul class="navbar-nav flex list-style-none">
-                        <li class="nav-item">
-                            <a href="#work" class="nav-link active">
-                                <span class="nav-link-inner--text">Work</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#intro" class="nav-link">
-                                <span class="nav-link-inner--text">About Me</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" target="_blank" class="nav-link">
-                                <span class="nav-link-inner--text">Resume</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link">
-                                <span class="nav-link-inner--text">Contact</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            </nav>
         </header>
 
         <div class="content-box">

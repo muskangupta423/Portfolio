@@ -264,6 +264,40 @@ header {
   position: relative;
 }
 
+header .navbar {
+  padding: 0;
+}
+
+header .navbar .row {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header .navbar .row .navbar-toggler {
+  padding: 2px 5px;
+  line-height: 1;
+  background-color: #f6f6f6;
+  border: 2px solid #cfd9d9;
+  border-radius: 5px;
+  outline: none;
+  position: absolute;
+  right: 0;
+  top: -50px;
+}
+
+header .navbar .row .navbar-toggler:hover {
+  -webkit-box-shadow: 1px 1px 5px #ddd, -1px -1px 5px #ddd;
+          box-shadow: 1px 1px 5px #ddd, -1px -1px 5px #ddd;
+  border-color: #98b1c3;
+}
+
+header .navbar .row .navbar-toggler .navbar-toggler-icon {
+  width: 36px;
+  height: 36px;
+  background-image: url(https://img.pngio.com/list-icons-free-download-png-and-svg-list-icon-png-256_256.png);
+}
+
 header .my-image {
   position: absolute;
   top: 50%;
@@ -308,13 +342,20 @@ header .navbar-brand .position {
   color: #efefef;
 }
 
+.navbar-nav {
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 .navbar-nav li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -489,7 +530,6 @@ section.intro h4 {
 /* ===== work timeline ===== */
 .work {
   /* The actual timeline (the vertical ruler) */
-  /* Media queries - Responsive timeline on screens less than 600px wide */
 }
 
 .work * {
@@ -627,36 +667,6 @@ section.intro h4 {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-  .work {
-    /* Place the timelime to the left */
-    /* Full-width containers */
-    /* Make sure all circles are at the same spot */
-    /* Make all right containers behave like the left ones */
-  }
-  .work .timeline::after {
-    left: 31px;
-  }
-  .work .timeline-container {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-  }
-  .work .timeline-container::before {
-    left: 60px;
-    border: medium solid #ffffff;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent #ffffff transparent transparent;
-  }
-  .work .left::after,
-  .work .right::after {
-    left: 15px;
-  }
-  .work .right {
-    left: 0%;
-  }
-}
-
 /* ===== end work timeline ===== */
 /* ===== skills ===== */
 .skills .skills-container {
@@ -783,4 +793,45 @@ footer .btn-mail i {
 }
 
 /* ===== end footer ===== */
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  .name {
+    font-size: 20px !important;
+  }
+  .section-heading {
+    font-size: 24px !important;
+  }
+  section.intro h2 {
+    font-size: 20px;
+  }
+  section.intro h4 {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+  /* Full-width containers */
+  .timeline-container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  .timeline-container::before {
+    left: 60px;
+    border: medium solid #ffffff;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #ffffff transparent transparent;
+  }
+  /* Make sure all circles are at the same spot */
+  .left::after,
+  .right::after {
+    left: 15px;
+  }
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
 /*# sourceMappingURL=index.css.map */
