@@ -43,7 +43,7 @@ header {
     padding: 0;
 
     .row {
-      width: 100%;
+      //width: 100%;
       margin: 0;
       padding: 0;
 
@@ -267,7 +267,7 @@ section.intro {
   }
   .timeline {
     position: relative;
-    max-width: 1200px;
+    //max-width: 1200px;
     margin: 0 auto;
 
     &::after {
@@ -512,21 +512,21 @@ footer {
     /* Place the timelime to the left */
     .timeline {
       &::after {
-        left: 31px;
+        left: 0 !important;
       }
     }
 
     /* Full-width containers */
     .timeline-container {
-      width: 100%;
-      padding-left: 70px;
-      padding-right: 25px;
+      width: 100% !important;
+      padding-left: 30px !important;
+      padding-right: 0 !important;
 
       &::before {
-        left: 60px;
-        border: medium solid $textWhite;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent $textWhite transparent transparent;
+        left: 15px !important;
+        border: medium solid $textWhite !important;
+        border-width: 10px 10px 10px 0 !important;
+        border-color: transparent $textWhite transparent transparent !important;
       }
     }
 
@@ -534,12 +534,12 @@ footer {
     .left,
     .right {
       &::after {
-        left: 15px;
+        left: -15px !important;
       }
     }
 
     /* Make all right containers behave like the left ones */
     .right {
-      left: 0%;
+      left: 0% !important;
     }
   }
