@@ -11,6 +11,10 @@ body {
   // font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
   padding: 15px;
 
+  .select-disabled {
+    user-select: none;
+  }
+
   .section-heading {
     color: $themeColorSecondary;
     text-align: center;
@@ -43,7 +47,7 @@ header {
     padding: 0;
 
     .row {
-      //width: 100%;
+      width: 100%;
       margin: 0;
       padding: 0;
 
@@ -67,6 +71,14 @@ header {
           width: 36px;
           height: 36px;
           background-image: url(https://img.pngio.com/list-icons-free-download-png-and-svg-list-icon-png-256_256.png);
+        }
+      }
+      .navbar-collapse.collapse.show .navbar-nav{
+        padding: 5px;
+        li {
+          flex-basis: 100% !important;
+          max-width: 100% !important;
+          justify-content: center;
         }
       }
     }
@@ -493,6 +505,9 @@ footer {
 
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 600px) {
+    .content-box {
+      padding: 0;
+    }
     .name {
       font-size: 20px !important;
     }
@@ -542,4 +557,28 @@ footer {
     .right {
       left: 0% !important;
     }
+
+    .skills {
+      .skills-container {
+        width: 100%;
+        margin: 0px auto 0;
+    
+        .skills-group {
+          flex: 0 0 calc(100% / 5);
+          width: calc(100% / 5);
+    
+          .skill {
+            width: 100%;
+            height: 90px;
+        
+            .skill-icon {
+              width: 130px;
+              height: 55px;
+              box-shadow: 0px 5px 10px 5px #eaeaea5e;
+            }
+          }
+        }
+      }
+    }
+
   }

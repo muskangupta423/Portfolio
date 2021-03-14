@@ -234,6 +234,13 @@ body {
   padding: 15px;
 }
 
+body .select-disabled {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 body .section-heading {
   color: #efefef;
   text-align: center;
@@ -269,6 +276,7 @@ header .navbar {
 }
 
 header .navbar .row {
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -295,6 +303,19 @@ header .navbar .row .navbar-toggler .navbar-toggler-icon {
   width: 36px;
   height: 36px;
   background-image: url(https://img.pngio.com/list-icons-free-download-png-and-svg-list-icon-png-256_256.png);
+}
+
+header .navbar .row .navbar-collapse.collapse.show .navbar-nav {
+  padding: 5px;
+}
+
+header .navbar .row .navbar-collapse.collapse.show .navbar-nav li {
+  -ms-flex-preferred-size: 100% !important;
+      flex-basis: 100% !important;
+  max-width: 100% !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 header .my-image {
@@ -793,6 +814,9 @@ footer .btn-mail i {
 /* ===== end footer ===== */
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+  .content-box {
+    padding: 0;
+  }
   .name {
     font-size: 20px !important;
   }
@@ -830,6 +854,26 @@ footer .btn-mail i {
   /* Make all right containers behave like the left ones */
   .right {
     left: 0% !important;
+  }
+  .skills .skills-container {
+    width: 100%;
+    margin: 0px auto 0;
+  }
+  .skills .skills-container .skills-group {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(100% / 5);
+            flex: 0 0 calc(100% / 5);
+    width: calc(100% / 5);
+  }
+  .skills .skills-container .skills-group .skill {
+    width: 100%;
+    height: 90px;
+  }
+  .skills .skills-container .skills-group .skill .skill-icon {
+    width: 130px;
+    height: 55px;
+    -webkit-box-shadow: 0px 5px 10px 5px #eaeaea5e;
+            box-shadow: 0px 5px 10px 5px #eaeaea5e;
   }
 }
 /*# sourceMappingURL=index.css.map */
