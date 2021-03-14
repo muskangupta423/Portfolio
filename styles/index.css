@@ -548,9 +548,7 @@ section.intro h4 {
 
 /* ===== end projects ===== */
 /* ===== work timeline ===== */
-.work {
-  /* The actual timeline (the vertical ruler) */
-}
+
 
 .work * {
   -webkit-box-sizing: border-box;
