@@ -231,7 +231,7 @@ html {
 body {
   background-color: #2b294b;
   font-family: system-ui;
-  padding: 15px;
+  padding: 80px 15px 15px 15px;
 }
 
 body .select-disabled {
@@ -272,7 +272,15 @@ header {
 }
 
 header .navbar {
-  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background: #39365f;
+  -webkit-box-shadow: 0px 2px 4px 2px #a39fd433;
+          box-shadow: 0px 2px 4px 2px #a39fd433;
+  z-index: 999999;
 }
 
 header .navbar .row {
@@ -282,7 +290,7 @@ header .navbar .row {
 }
 
 header .navbar .row .navbar-toggler {
-  padding: 2px 5px;
+  padding: 6px 8px;
   line-height: 1;
   background-color: #f6f6f6;
   border: 2px solid #cfd9d9;
@@ -290,7 +298,7 @@ header .navbar .row .navbar-toggler {
   outline: none;
   position: absolute;
   right: 0;
-  top: -50px;
+  top: -45px;
 }
 
 header .navbar .row .navbar-toggler:hover {
@@ -300,9 +308,13 @@ header .navbar .row .navbar-toggler:hover {
 }
 
 header .navbar .row .navbar-toggler .navbar-toggler-icon {
-  width: 36px;
-  height: 36px;
-  background-image: url(https://img.pngio.com/list-icons-free-download-png-and-svg-list-icon-png-256_256.png);
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/cross-icon.svg);
+}
+
+header .navbar .row .navbar-toggler.collapsed .navbar-toggler-icon {
+  background-image: url(../images/list-icon.svg);
 }
 
 header .navbar .row .navbar-collapse.collapse.show .navbar-nav {
@@ -313,9 +325,9 @@ header .navbar .row .navbar-collapse.collapse.show .navbar-nav li {
   -ms-flex-preferred-size: 100% !important;
       flex-basis: 100% !important;
   max-width: 100% !important;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 header .my-image {
@@ -385,7 +397,7 @@ header .navbar-brand .position {
 }
 
 .navbar-nav .nav-link {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
   color: #efefef !important;
@@ -548,7 +560,9 @@ section.intro h4 {
 
 /* ===== end projects ===== */
 /* ===== work timeline ===== */
-
+.work {
+  /* The actual timeline (the vertical ruler) */
+}
 
 .work * {
   -webkit-box-sizing: border-box;
@@ -820,6 +834,11 @@ footer .btn-mail i {
   }
   .section-heading {
     font-size: 24px !important;
+  }
+  section.intro {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   section.intro h2 {
     font-size: 20px;
