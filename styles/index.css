@@ -204,6 +204,10 @@
   list-style: none;
 }
 
+.mr-b-0 {
+  margin-bottom: 0 !important;
+}
+
 .opacity-0 {
   opacity: 0 !important;
 }
@@ -532,7 +536,24 @@ section.intro h4 {
           transform: scale3d(1, 1, 1);
 }
 
-.projects .card i {
+.projects .card h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects .card h4 a {
+  font-size: 15px;
+  color: #1e91c8;
+}
+
+.projects .card h4 a i {
   font-size: 28px;
   -webkit-transition: 1s;
   transition: 1s;
@@ -541,7 +562,7 @@ section.intro h4 {
   color: #2b294b;
 }
 
-.projects .card i:hover {
+.projects .card h4 a i:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   color: #0084ad;
@@ -815,8 +836,15 @@ footer .btn-linkedin i {
   color: #0174b3;
 }
 
+footer .btn-instagram i {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 footer .btn-facebook i {
-  color: #3b5998;
+  color: #1877F2;
 }
 
 footer .btn-mail i {
