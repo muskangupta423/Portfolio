@@ -7,6 +7,34 @@
   color: #efefef !important;
 }
 
+.text-sky-blue {
+  color: #25bdeb !important;
+}
+
+.text-blue {
+  color: #0084ad !important;
+}
+
+.f-12 {
+  font-size: 12px !important;
+}
+
+.f-13 {
+  font-size: 13px !important;
+}
+
+.f-14 {
+  font-size: 14px !important;
+}
+
+.f-16 {
+  font-size: 16px !important;
+}
+
+.f-20 {
+  font-size: 20px !important;
+}
+
 .font-w-100 {
   font-weight: 100 !important;
 }
@@ -226,6 +254,22 @@
 
 .opacity-8 {
   opacity: 0.8 !important;
+}
+
+.pd-t-10 {
+  padding-top: 10px !important;
+}
+
+.pd-t-15 {
+  padding-top: 15px !important;
+}
+
+.pd-t-20 {
+  padding-top: 20px !important;
+}
+
+.pd-l-10 {
+  padding-left: 10px !important;
 }
 
 html {
