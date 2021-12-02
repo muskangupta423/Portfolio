@@ -277,7 +277,7 @@ html {
 }
 
 body {
-  background-color: #2b294b;
+  background-color: #222222;
   font-family: system-ui;
   padding: 80px 15px 15px 15px;
 }
@@ -325,7 +325,7 @@ header .navbar {
   left: 0;
   right: 0;
   padding: 10px;
-  background: #39365f;
+  background: #555555;
   -webkit-box-shadow: 0px 2px 4px 2px #a39fd433;
           box-shadow: 0px 2px 4px 2px #a39fd433;
   z-index: 999999;
@@ -492,7 +492,7 @@ section.intro h4 {
 
 /* ===== projects ===== */
 .projects .projectImage {
-  height: 150px;
+  height: 200px;
   width: 100%;
 }
 
@@ -590,6 +590,7 @@ section.intro h4 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  min-height: 38px;
 }
 
 .projects .card h4 a {
@@ -603,7 +604,7 @@ section.intro h4 {
   transition: 1s;
   cursor: pointer;
   margin: 5px;
-  color: #2b294b;
+  color: #222222;
 }
 
 .projects .card h4 a i:hover {
@@ -757,10 +758,6 @@ section.intro h4 {
 .work .timeline .content .timeline-button:hover {
   background: #0084ad;
   color: #ffffff;
-}
-
-.work .timeline .workDetail {
-  display: none;
 }
 
 /* ===== end work timeline ===== */
