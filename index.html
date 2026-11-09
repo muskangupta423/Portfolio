@@ -1,281 +1,300 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css" 
-            integrity="sha384-IIED/eyOkM6ihtOiQsX2zizxFBphgnv1zbe1bKA+njdFzkr6cDNy16jfIKWu4FNH" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="styles/index.css">
-        <title>Muskan Gupta | Portfolio</title>
-        <link rel="icon" href="images/MuskanGupta.png" type="image/icon">
-    </head>
-    <body>
-        <header class="header-global" id="header">
-            <nav class="navbar navbar-expand-md">
-                <div class="row">
-                    <div class="col-xl-3 col-md-6">
-                        <div class="my-image">
-                            <img src="images/MuskanGupta.png" alt="my image">
-                        </div>
-                        <a class="navbar-brand text-dark text-normal mr-lg-5" href="#">
-                            <div class="name">Muskan Gupta</div>
-                            <div class="position">Frontend Developer</div>
-                        </a>
-                    </div>
-                    <div class="col-xl-9 col-md-6 justify-content-center flex" id="navbar_global">
-                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                            <ul class="navbar-nav row list-style-none">
-                                <li class="nav-item col-xl-3">
-                                    <a href="#work" class="nav-link active">
-                                        <span class="nav-link-inner--text">Work</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item col-xl-3">
-                                    <a href="#intro" class="nav-link">
-                                        <span class="nav-link-inner--text">About</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item col-xl-3">
-                                    <a href="../Portfolio/resume/Muskan_Gupta_Resume.pdf" target="_blank" download="Muskan_Gupta_Resume" class="nav-link">
-                                        <span class="nav-link-inner--text">Resume</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item col-xl-3">
-                                    <a href="#contact" class="nav-link">
-                                        <span class="nav-link-inner--text">Contact</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </header>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muskan Gupta | Senior Frontend Engineer · React, Flutter &amp; AI-assisted development</title>
+  <meta name="description" content="Senior Frontend Engineer with 6+ years building React.js and Flutter products: payment and onboarding flows, performance, and AI-assisted development with Claude Code.">
+  <meta name="theme-color" content="#0a0a0c">
+  <meta property="og:title" content="Muskan Gupta | Senior Frontend Engineer">
+  <meta property="og:description" content="React.js, Flutter and AI-assisted development. Payment flows, performance wins and measurable product impact.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/muskan-hero.jpg">
+  <link rel="icon" href="images/favicon-128.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <script>
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
+</head>
+<body>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+  <a class="skip" href="#main">Skip to content</a>
 
-        <div class="content-box">
-            <section class="section intro flex justify-content-md-center" id="intro">
-                <h1 class="section-heading fx-b100">🙋🏻‍♀️ ABOUT ME</h1>
-                <div class="flex-column fx-b70 justify-content-md-space-evenly">
-                    <h2>
-                        Hello Spectator 👀, let me introduce myself.
-                    </h2>
-                    <h4>
-                        <p>
-                            People call me <i class="text-secondary-theme font-w-700">Muskan</i>. 
-                            I am currently working as a Frontend Developer.
-                        </p>
-                        <p>
-                            With every line of code, I strive to build immersive and beautiful web applications 
-                            through carefully crafted code and user-centric design.
-                        </p>
-                        <p>
-                            I prefer to keep learning, continue challenging myself, and do interesting 
-                            things that matter.
-                        </p>
-                        <p>
-                            When not online, I can be either found eating or cooking something 
-                            as I am a foodaholic 🍕 person.
-                        </p>
-                    </h4>
-                </div>    
-            </section>
+  <header class="nav" id="nav">
+    <a class="brand" href="#top" aria-label="Muskan Gupta, home"><span class="brand-mark">MG</span><span class="brand-name">Muskan Gupta</span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#impact">Impact</a>
+      <a href="#experience">Experience</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#ai">AI</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle light and dark theme">
+        <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <a class="btn btn-sm" href="resume/Muskan_Gupta_Resume_2026.pdf" target="_blank" rel="noopener" download>Resume</a>
+    </div>
+  </header>
 
-            <div class="divider"></div>
-
-            <section class="section projects">
-                <h1 class="section-heading fx-b100">👩🏻‍💻 PROJECTS</h1>
-                <div class="container mt-2">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6">
-                            <div class="card card-block">
-                                <h4 class="text-right">
-                                    <a target="_blank" href="https://muskangupta423.github.io/Canvas-Clock/">View Project</a>
-                                    <a target="_blank" href="https://github.com/muskangupta423/Canvas-Clock"><i class="fab fa-github"></i></a>
-                                </h4>
-                                <div class="projectImage">
-                                    <img src="images/canvas_clock_project.png" alt="Linkedin Screen">
-                                </div>
-                                <h5 class="card-title">HTML Canvas Analog Clock</h5>
-                                <p class="card-text">
-                                    <p class="mr-b-0"><strong>Technologies used - </strong> React, SCSS</p>
-                                    <p class="mr-b-0"><strong>Details - </strong> A simple React project for learning basic of Date & Time functions and Canvas.
-                                         <!-- <strong>&lt;canvas&gt;</strong> is an HTML element that is used to draw graphics on a web page. -->
-                                    </p>
-                                </p> 
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="card card-block">
-                                <h4 class="text-right">
-                                    <a target="_blank" href="https://muskangupta423.github.io/Javascript-Drum-Kit/">View Project</a>
-                                    <a target="_blank" href="https://github.com/muskangupta423/Javascript-Drum-Kit"><i class="fab fa-github"></i></a>
-                                </h4>
-                                <div class="projectImage">
-                                    <img src="images/js_drum_project.png" alt="Javascript-Drum-Kit">
-                                </div>
-                                <h5 class="card-title">Javascript Drum Kit</h5>
-                                <p class="card-text">
-                                    <p class="mr-b-0"><strong>Technologies used - </strong> HTML, CSS, JS</p>
-                                    <p class="mr-b-0"><strong>Details - </strong> A simple JS project for learning how to use key events and audio.</p>
-                                </p> 
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="card card-block">
-                                <h4 class="text-right">
-                                    <a target="_blank" href="https://www.figma.com/file/XmRy7WodV5HcCZXDoaXUNb/My-Illustration?node-id=0%3A1">View Project</a>
-                                    <!-- <a target="_blank" href="https://github.com/muskangupta423/Javascript-Drum-Kit"><i class="fab fa-github"></i></a> -->
-                                </h4>
-                                <div class="projectImage">
-                                    <img src="images/My_Illustration.png" alt="My Illustration">
-                                </div>
-                                <h5 class="card-title">Illustration</h5>
-                                <p class="card-text">
-                                    <p class="mr-b-0"><strong>Tool used - </strong> Figma</p>
-                                    <p class="mr-b-0"><strong>Details - </strong> Designed Illustration for learning how to use pen, bend tool and other features.</p>
-                                </p>  
-                            </div>
-                        </div>
-                          
-                    </div>
-                    
-                  </div>
-                  
-            </section>
-
-            <div class="divider"></div>
-
-            <section class="section skills flex justify-content-md-center">
-                <h1 class="section-heading fx-b100">🎯 SKILLS</h1>
-
-                <div class="skills-container">
-                    <div class="skills-group">
-                        <div class="skill">
-                            <div class="skill-icon"><img src="images/Figma.png"></div>
-                        </div>
-                    </div>
-                    <div class="skills-group">
-                        <div class="skill">
-                            <div class="skill-icon"><img src="images/CSS.png"></div>
-                        </div>
-                        <div class="skill">
-                            <div class="skill-icon"><img src="images/Javascript.png"></div>
-                        </div>
-                    </div>
-                    <div class="skills-group">
-                        <div class="skill">
-                            <div class="skill-icon"><img src="images/HTML.png"></div>
-                        </div>
-                        <div class="skill">
-                            <div class="skill-icon"><img src="images/Bootstrap.png"></div>
-                        </div>
-                        <div class="skill">
-                            <div class="skill-icon"><img src="images/CoreJava.png"></div>
-                        </div>
-                    </div>
-                    <div class="skills-group">
-                        <div class="skill">
-                            <div class="skill-icon"><img src="images/SCSS.png"></div>
-                        </div>
-                        <div class="skill">
-                            <div class="skill-icon"><img src="images/ReactJS.png"></div>
-                        </div>
-                    </div>
-                    <div class="skills-group">
-                        <div class="skill">
-                            <div class="skill-icon"><img src="images/Git.png"></div>
-                        </div>
-                    </div>
-                  </div>
-
-            </section>
-
-            <div class="divider"></div>
-
-            <section class="section work" id="work">
-                <h1 class="section-heading">💼 EXPERIENCE</h1>
-                <div class="timeline">
-                    <div class="timeline-container left">
-                      <div class="content">
-                        <h2>Frontend Developer</h2>
-                        <p class="date">July 2020 - Present</p>
-                        <p class="font-w-700">IOT83, Gurgaon, Haryana</p>
-                        <button class="timeline-button" onclick="showWorkDetail()"><i id="chevronIcon" class="fad fa-chevron-up"></i></button>
-                        <div id="workDetail" class="workDetail">
-                            <h6 class="pd-t-15">Key Qualifications & Responsibilities - </h6>
-                            <ul class="mr-b-0"> 
-                                <li>Optimizing <strong class="text-sky-blue">User Interfaces</strong> and Overseeing all <strong class="text-sky-blue">colors, </strong> <strong class="text-sky-blue">illustration </strong> and <strong class="text-sky-blue">typography</strong>.</li>
-                                <li>Assessed UX and UI designs for <strong class="text-sky-blue">technical feasibility</strong>.</li>
-                                <li>Directly collaborated with leads and Product team members to implement new feature development and deliver the project with a lean design process: <strong class="text-sky-blue">research</strong>, <strong class="text-sky-blue"> design</strong>, <strong class="text-sky-blue"> develop</strong>, <strong class="text-sky-blue"> test</strong> and <strong class="text-sky-blue"> iterate</strong>.</li>
-                            </ul>
-                            <p class="pd-t-10 f-14"><strong class="font-w-500">Technology Stack : </strong> HTML, CSS, SASS, JS, React</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="timeline-container right">
-                      <div class="content">
-                        <h2>Software Developer Intern</h2>
-                        <p class="date">January 2020 - June 2020</p>
-                        <p class="font-w-700">IOT83, Gurgaon, Haryana</p>
-                        <!-- <button class="timeline-button"><i class="fad fa-chevron-down"></i></button> -->
-                      </div>
-                    </div>
-                      <div class="timeline-container left">
-                      <div class="content">
-                        <h2>Training in Java & Python</h2>
-                        <p class="date">June 2018 - July 2018</p>
-                        <p class="font-w-700">Ducat Training Institute, Noida, Uttar Pradesh</p>
-                        <!-- <button class="timeline-button"><i class="fad fa-chevron-down"></i></button> -->
-                      </div>
-                    </div>
-                  </div>
-            </section>
-
-            <div class="divider"></div>
-  
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="pill reveal"><span class="dot"></span> Available immediately · Senior Frontend Engineer</p>
+        <h1 class="reveal">I build fast, <em>conversion-focused</em> products in React&nbsp;&amp;&nbsp;Flutter.</h1>
+        <p class="lead reveal">6+ years shipping payment, onboarding and dashboard experiences used by real customers. I cut build sizes, API traffic and load times, and I use AI tooling like Claude Code to move faster, with every change reviewed by a human.</p>
+        <div class="cta reveal">
+          <a class="btn" href="#contact">Let's talk <span aria-hidden="true">→</span></a>
+          <a class="btn btn-ghost" href="#work">See my work</a>
         </div>
+        <ul class="hero-meta reveal" aria-label="Currently">
+          <li><span>Previously</span> SplashLearn · IoT83</li>
+          <li><span>Stack</span> React · Flutter · JavaScript</li>
+        </ul>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="photo">
+          <img src="images/muskan-hero.jpg" alt="Portrait of Muskan Gupta" width="900" height="900" fetchpriority="high">
+          <div class="photo-tag t1"><span class="mono">73%</span> less API traffic</div>
+          <div class="photo-tag t2"><span class="mono">−46%</span> build size</div>
+          <div class="photo-tag t3"><span class="mono">90%+</span> test coverage</div>
+        </div>
+      </div>
+    </section>
 
-        <footer id="contact">
-            <h1 class="section-heading">📲 CONTACT</h1>
-            <div class="row row-grid align-items-center">
-                <div class="col-lg-6 text-center">
-                    <h6 class="mb-2">Thank you for visiting!</h6>
-                    <p class="mb-0">Let's get social or be internet friends 🤝🏻</p>
-                </div>
-                <div class="col-lg-6 text-center btn-wrapper">
-                    <a target="_blank" href="https://www.linkedin.com/in/muskangupta427/" class="btn btn-neutral btn-icon-only btn-linkedin btn-round btn-lg">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a target="_blank" href="https://github.com/muskangupta423/" class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a target="_blank" href="https://www.instagram.com/muskan427ad/" class="btn btn-neutral btn-icon-only btn-instagram btn-round btn-lg">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100008504620987/" class="btn btn-neutral btn-icon-only btn-facebook btn-lg btn-round">
-                        <i class="fab fa-facebook-square"></i>
-                    </a>
-                    <a target="_blank" href="mailto:guptamuskan423@gmail.com?Subject=Hello%20Muskan" class="btn btn-neutral btn-icon-only btn-mail btn-round btn-lg">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="row align-items-center justify-content-center p-3">
-                <div class="copyright">
-                    &#169; 2021 Made with love ❤️ by Muskan.
-                </div>
-            </div>
-        </footer>
+    <!-- IMPACT -->
+    <section class="section" id="impact">
+      <header class="section-head reveal">
+        <p class="eyebrow">01 / Impact</p>
+        <h2>Numbers I'm proud of</h2>
+      </header>
+      <div class="bento stats">
+        <article class="card stat span-2 reveal">
+          <p class="stat-num"><span data-count="73">73</span><small>%</small></p>
+          <p class="stat-label">less traffic to a core API</p>
+          <p class="stat-note">~3,000 → 800 TPM by adding API caching in Flutter, plus fewer requests to other frequently called APIs.</p>
+        </article>
+        <article class="card stat reveal">
+          <p class="stat-num"><span data-count="39.9" data-decimals="1">39.9</span><small> MB</small></p>
+          <p class="stat-label">build size, down from 74.4 MB</p>
+          <p class="stat-note">Build time cut from 15 to 10 min.</p>
+        </article>
+        <article class="card stat reveal">
+          <p class="stat-num"><span data-count="90">90</span><small>%+</small></p>
+          <p class="stat-label">automated test coverage</p>
+          <p class="stat-note">Across onboarding and purchase flows.</p>
+        </article>
+        <article class="card stat reveal">
+          <p class="stat-num"><span data-count="15">15</span><small> pp</small></p>
+          <p class="stat-label">more fast dashboard loads</p>
+          <p class="stat-note">Found &gt;5s loads with Mixpanel, then parallelized calls and added caching.</p>
+        </article>
+        <article class="card stat reveal">
+          <p class="stat-num"><span data-count="100">100</span><small>+</small></p>
+          <p class="stat-label">structured AI prompts written</p>
+          <p class="stat-note">Tuned for better output and lower token use.</p>
+        </article>
+        <article class="card stat span-2 reveal">
+          <p class="stat-num"><span data-count="10">10</span><small>+</small></p>
+          <p class="stat-label">live IoT dashboards shipped</p>
+          <p class="stat-note">Fleet, refrigeration and asset management at IoT83.</p>
+        </article>
+      </div>
+    </section>
 
-        <script src="index.js"></script>
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <header class="section-head reveal">
+        <p class="eyebrow">02 / Experience</p>
+        <h2>Where I've worked</h2>
+      </header>
+      <ol class="timeline">
+        <li class="role reveal">
+          <div class="role-meta">
+            <p class="mono">Mar 2022 – Oct 2026</p>
+            <p class="role-co">SplashLearn</p>
+            <p class="role-loc">Traffic Conversion team</p>
+          </div>
+          <div class="card role-body">
+            <h3>Senior Software Engineer – I <span class="muted">· promoted from Software Engineer</span></h3>
+            <ul class="checks">
+              <li>Built onboarding and purchase flows in <b>React.js</b> and <b>Flutter</b>, including a ground-up rebuild of the purchase page with <b>Stripe Payment Element</b> and <b>PayPal</b>.</li>
+              <li>Reduced build size from 74.4 MB to 39.9 MB and build time from 15 to 10 min; adopted a CDN for Flutter web images.</li>
+              <li>Cut traffic to a core API by 73% (~3,000 to 800 TPM) with API caching in Flutter.</li>
+              <li>Used Mixpanel to find &gt;5s dashboard loads, then parallelized API calls, removed redundant async/await and added caching: fast loads up ~15 percentage points.</li>
+              <li>Improved SEO and Core Web Vitals on the homepage.</li>
+              <li>Took the initiative to debug onboarding screen-to-screen transition time using Mixpanel funnels and Time to Convert, and proposed fixes to cut it further.</li>
+              <li>Reached 90%+ automated test coverage across onboarding and purchase flows.</li>
+              <li>Adopted AI-assisted development (Claude Code, Claude, ChatGPT) for ~2 years across features, refactoring, debugging and codebase exploration.</li>
+            </ul>
+            <div class="tags"><span>React.js</span><span>Flutter</span><span>Stripe</span><span>PayPal</span><span>Mixpanel</span><span>Claude Code</span></div>
+          </div>
+        </li>
+        <li class="role reveal">
+          <div class="role-meta">
+            <p class="mono">Jul 2020 – Feb 2022</p>
+            <p class="role-co">IoT83</p>
+            <p class="role-loc">Software Developer Intern, Jan – Jun 2020</p>
+          </div>
+          <div class="card role-body">
+            <h3>Frontend Developer</h3>
+            <ul class="checks">
+              <li>Built React.js and Sass enterprise dashboards (tables, charts, alarms) across ~10 live IoT projects.</li>
+              <li>Key products: Fleet Management, Refrigeration and Asset Management.</li>
+              <li>Reviewed Figma designs for feasibility and shipped features with leads and product.</li>
+            </ul>
+            <div class="tags"><span>React.js</span><span>Sass</span><span>Dashboards</span><span>Figma</span></div>
+          </div>
+        </li>
+      </ol>
+    </section>
 
-    </body>
+    <!-- WORK / CASE STUDIES -->
+    <section class="section" id="work">
+      <header class="section-head reveal">
+        <p class="eyebrow">03 / Selected work</p>
+        <h2>Case studies, problem to outcome</h2>
+      </header>
+      <div class="bento cases">
+        <article class="card case span-2 reveal">
+          <p class="mono kicker">Purchase flow</p>
+          <h3>Rebuilding the purchase page from the ground up</h3>
+          <p>Owned the rebuild of SplashLearn's purchase page on the Traffic Conversion team, integrating <b>Stripe Payment Element</b> and <b>PayPal</b>, backed by 90%+ automated test coverage across onboarding and purchase flows.</p>
+          <div class="tags"><span>React.js</span><span>Flutter</span><span>Stripe</span><span>PayPal</span></div>
+        </article>
+        <article class="card case reveal">
+          <p class="mono kicker">Build performance</p>
+          <h3>Shrinking the Flutter web build</h3>
+          <div class="before-after"><span>74.4 MB</span><i>→</i><strong>39.9 MB</strong></div>
+          <p>Build time 15 → 10 min, with a CDN for images.</p>
+        </article>
+        <article class="card case reveal">
+          <p class="mono kicker">API efficiency</p>
+          <h3>Taming API traffic</h3>
+          <div class="before-after"><span>~3,000 TPM</span><i>→</i><strong>800 TPM</strong></div>
+          <p>Caching in Flutter cut a core API's traffic by 73%.</p>
+        </article>
+        <article class="card case reveal">
+          <p class="mono kicker">Dashboards</p>
+          <h3>Faster loads for web users</h3>
+          <p>Mixpanel surfaced loads over 5s. Parallelized API calls, removed redundant async/await and added caching, lifting fast loads by about 15 percentage points.</p>
+        </article>
+        <article class="card case reveal">
+          <p class="mono kicker">Funnels</p>
+          <h3>Debugging onboarding transitions</h3>
+          <p>Used Mixpanel funnels and Time to Convert to find slow screen-to-screen transitions and proposed solutions to cut them further.</p>
+        </article>
+        <article class="card case reveal">
+          <p class="mono kicker">SEO &amp; Core Web Vitals</p>
+          <h3>Homepage performance</h3>
+          <p>SEO and Core Web Vitals improvements on the SplashLearn homepage.</p>
+        </article>
+        <article class="card case span-2 reveal">
+          <p class="mono kicker">Enterprise IoT</p>
+          <h3>Dashboards for ~10 live IoT projects</h3>
+          <p>At IoT83, built React.js and Sass dashboards (tables, charts, alarms) for Fleet Management, Refrigeration and Asset Management, reviewing Figma designs for feasibility before build.</p>
+          <div class="tags"><span>React.js</span><span>Sass</span><span>Charts</span><span>Alarms</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <header class="section-head reveal">
+        <p class="eyebrow">04 / Skills</p>
+        <h2>Toolkit</h2>
+      </header>
+      <div class="bento skills">
+        <article class="card reveal">
+          <h3>Frontend</h3>
+          <div class="tags big"><span>React.js</span><span>Flutter</span><span>JavaScript</span><span>HTML5</span><span>CSS3 / SCSS</span></div>
+        </article>
+        <article class="card reveal">
+          <h3>Integrations &amp; data</h3>
+          <div class="tags big"><span>REST APIs</span><span>Stripe</span><span>PayPal</span><span>API caching</span><span>Mixpanel funnels</span><span>Time to Convert</span></div>
+        </article>
+        <article class="card reveal">
+          <h3>Performance &amp; quality</h3>
+          <div class="tags big"><span>Core Web Vitals</span><span>SEO</span><span>CDN</span><span>Build optimization</span><span>Automated testing</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- AI -->
+    <section class="section" id="ai">
+      <header class="section-head reveal">
+        <p class="eyebrow">05 / AI-assisted development</p>
+        <h2>How I work with AI</h2>
+        <p class="section-sub">About two years of daily use across features, refactoring, debugging and codebase exploration. AI writes drafts; I own the decisions, and every change is reviewed before merge.</p>
+      </header>
+      <div class="bento ai">
+        <article class="card terminal span-2 reveal" aria-label="Example workflow">
+          <div class="term-bar"><i></i><i></i><i></i><span class="mono">claude-code</span></div>
+          <pre class="mono"><span class="c-dim">$</span> claude
+<span class="c-acc">›</span> explore how the purchase flow handles payment errors
+<span class="c-dim">  reading 14 files… mapping state + API calls</span>
+<span class="c-acc">›</span> refactor the cache layer, keep behaviour identical
+<span class="c-dim">  proposed diff ready for review</span>
+<span class="c-acc">✓</span> human review → tests green → merge</pre>
+        </article>
+        <article class="card reveal">
+          <h3>Tools</h3>
+          <div class="tags big"><span>Claude Code</span><span>Claude</span><span>ChatGPT</span><span>Figma MCP</span><span>Notion MCP</span></div>
+        </article>
+        <article class="card reveal">
+          <h3>Prompt &amp; context engineering</h3>
+          <p>100+ structured prompts written for better output and lower token use, with Figma and Notion MCP feeding design and docs context into the work.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Human in the loop</h3>
+          <p>Every AI-assisted change is reviewed before merge, backed by automated tests across critical flows.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Where it helps most</h3>
+          <div class="tags big"><span>New features</span><span>Refactoring</span><span>Debugging</span><span>Codebase exploration</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- RECOGNITION + EDUCATION -->
+    <section class="section" id="recognition">
+      <header class="section-head reveal">
+        <p class="eyebrow">06 / Recognition &amp; education</p>
+        <h2>Along the way</h2>
+      </header>
+      <div class="bento recog">
+        <article class="card reveal"><p class="mono kicker">Apr 2023 · SplashLearn</p><h3>Meraki Q1'23</h3></article>
+        <article class="card reveal"><p class="mono kicker">May 2022 · IoT83</p><h3>Best Performer</h3></article>
+        <article class="card reveal"><p class="mono kicker">2016 – 2020</p><h3>B.Tech, GLA University, Mathura</h3><p>CPI 8.69</p></article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="card contact-card reveal">
+        <p class="eyebrow">07 / Contact</p>
+        <h2>Let's build something <em>fast</em> and <em>good</em>.</h2>
+        <p class="lead">Available to join immediately for senior frontend roles. Open to full-time, contract and freelance work, remote or based in India.</p>
+        <div class="cta">
+          <a class="btn" href="mailto:guptamuskan423@gmail.com?subject=Hello%20Muskan">guptamuskan423@gmail.com</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/muskangupta427/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a class="btn btn-ghost" href="https://github.com/muskangupta423/" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Muskan Gupta</p>
+    <p class="mono"><a href="#top">Back to top ↑</a></p>
+  </footer>
+
+  <script src="scripts/main.js" defer></script>
+</body>
 </html>
