@@ -1,299 +1,325 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muskan Gupta | Senior Frontend Engineer · React, Flutter &amp; AI-assisted development</title>
-  <meta name="description" content="Senior Frontend Engineer with 6+ years building React.js and Flutter products: payment and onboarding flows, performance, and AI-assisted development with Claude Code.">
-  <meta name="theme-color" content="#0a0a0c">
+  <title>Muskan Gupta | Senior Frontend Engineer (React, TypeScript, Flutter)</title>
+  <meta name="description" content="Senior Frontend Engineer with 6+ years in React, TypeScript and Flutter. Cut a core API's traffic by 73%, reduced build size from 74.4 MB to 39.9 MB, rebuilt a purchase flow with Stripe and PayPal. Available immediately.">
+  <meta name="theme-color" content="#f5f2ff">
   <meta property="og:title" content="Muskan Gupta | Senior Frontend Engineer">
-  <meta property="og:description" content="React.js, Flutter and AI-assisted development. Payment flows, performance wins and measurable product impact.">
+  <meta property="og:description" content="Fast frontends, proven with numbers. React, TypeScript, Flutter. Available immediately.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="images/muskan-hero.jpg">
   <link rel="icon" href="images/favicon-128.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/main.css">
   <script>
-    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+    try { var t = localStorage.getItem('mg-theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Muskan Gupta","jobTitle":"Senior Frontend Engineer","email":"mailto:guptamuskan423@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Mathura","addressCountry":"IN"},"sameAs":["https://www.linkedin.com/in/muskangupta427/","https://github.com/muskangupta423"],"knowsAbout":["React","TypeScript","JavaScript","Flutter","Core Web Vitals","Web performance"]}
   </script>
 </head>
 <body>
   <div class="progress" id="progress" aria-hidden="true"></div>
   <a class="skip" href="#main">Skip to content</a>
 
-  <header class="nav" id="nav">
-    <a class="brand" href="#top" aria-label="Muskan Gupta, home"><span class="brand-mark">MG</span><span class="brand-name">Muskan Gupta</span></a>
-    <nav class="nav-links" aria-label="Primary">
-      <a href="#impact">Impact</a>
-      <a href="#experience">Experience</a>
-      <a href="#work">Work</a>
-      <a href="#skills">Skills</a>
-      <a href="#ai">AI</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <div class="nav-actions">
-      <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle light and dark theme">
-        <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
-        <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
-      </button>
-      <a class="btn btn-sm" href="resume/Muskan_Gupta_Resume_2026.pdf" target="_blank" rel="noopener" download>Resume</a>
+  <header class="bar" id="bar">
+    <div class="wrap bar-in">
+      <a class="brand" href="#top" aria-label="Muskan Gupta, home"><span class="brand-dot"></span>Muskan Gupta</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#proof">Proof</a>
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#ai">AI</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="bar-actions">
+        <span class="status"><i></i>Available immediately</span>
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch between light and dark theme">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3v18" /><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg>
+        </button>
+        <a class="btn btn-sm mag" href="resume/Muskan_Gupta_Resume_2026.pdf" target="_blank" rel="noopener" download>Resume ↓</a>
+      </div>
     </div>
   </header>
 
   <main id="main">
     <!-- HERO -->
-    <section class="hero" id="top">
+    <section class="hero wrap" id="top">
       <div class="hero-copy">
-        <p class="pill reveal"><span class="dot"></span> Available immediately · Senior Frontend Engineer</p>
-        <h1 class="reveal">I build fast, <em>conversion-focused</em> products in React&nbsp;&amp;&nbsp;Flutter.</h1>
-        <p class="lead reveal">6+ years shipping payment, onboarding and dashboard experiences used by real customers. I cut build sizes, API traffic and load times, and I use AI tooling like Claude Code to move faster, with every change reviewed by a human.</p>
-        <div class="cta reveal">
-          <a class="btn" href="#contact">Let's talk <span aria-hidden="true">→</span></a>
-          <a class="btn btn-ghost" href="#work">See my work</a>
-        </div>
-        <ul class="hero-meta reveal" aria-label="Currently">
-          <li><span>Previously</span> SplashLearn · IoT83</li>
-          <li><span>Stack</span> React · Flutter · JavaScript</li>
-        </ul>
-      </div>
-      <div class="hero-visual reveal">
-        <div class="photo">
-          <img src="images/muskan-hero.jpg" alt="Portrait of Muskan Gupta" width="900" height="900" fetchpriority="high">
-          <div class="photo-tag t1"><span class="mono">73%</span> less API traffic</div>
-          <div class="photo-tag t2"><span class="mono">−46%</span> build size</div>
-          <div class="photo-tag t3"><span class="mono">90%+</span> test coverage</div>
+        <p class="mono eyebrow" data-reveal>Senior Frontend Engineer · React · TypeScript · Flutter</p>
+        <h1 class="display">
+          <span class="line" data-reveal><span>I build frontends</span></span>
+          <span class="line" data-reveal><span>that are <mark>fast</mark>,</span></span>
+          <span class="line" data-reveal><span>and I can prove it.</span></span>
+        </h1>
+        <p class="lead" data-reveal>Hi, I'm Muskan. Over 6+ years I've built onboarding, purchase and dashboard experiences used by real customers. At SplashLearn I cut traffic to a core API by 73%, shrank the build by 46%, and rebuilt the purchase page with Stripe and PayPal.</p>
+        <div class="cta" data-reveal>
+          <a class="btn mag" href="mailto:guptamuskan423@gmail.com?subject=Hello%20Muskan">Email me <span aria-hidden="true">→</span></a>
+          <a class="btn btn-ghost mag" href="resume/Muskan_Gupta_Resume_2026.pdf" target="_blank" rel="noopener" download>Download resume ↓</a>
         </div>
       </div>
+      <figure class="card-photo" data-reveal>
+        <div class="photo-frame"><img src="images/muskan-hero.jpg" alt="Portrait of Muskan Gupta" width="900" height="1125" fetchpriority="high"></div>
+        <figcaption class="mono">Muskan Gupta · Mathura, India</figcaption>
+        <svg class="badge" viewBox="0 0 120 120" aria-hidden="true">
+          <defs><path id="circ" d="M60,60 m-42,0 a42,42 0 1,1 84,0 a42,42 0 1,1 -84,0"/></defs>
+          <circle cx="60" cy="60" r="58" class="badge-bg"/>
+          <text class="badge-text"><textPath href="#circ" startOffset="0" textLength="260" lengthAdjust="spacing">AVAILABLE IMMEDIATELY • AVAILABLE IMMEDIATELY •</textPath></text>
+          <circle cx="60" cy="60" r="7" class="badge-dot"/>
+        </svg>
+      </figure>
     </section>
 
-    <!-- IMPACT -->
-    <section class="section" id="impact">
-      <header class="section-head reveal">
-        <p class="eyebrow">01 / Impact</p>
-        <h2>Numbers I'm proud of</h2>
+    <section class="wrap" aria-label="At a glance">
+      <dl class="facts" data-reveal>
+        <div><dt class="mono">Level</dt><dd>Senior Software Engineer I<br><span>promoted from Software Engineer</span></dd></div>
+        <div><dt class="mono">Experience</dt><dd>6+ years<br><span>since July 2020</span></dd></div>
+        <div><dt class="mono">Core stack</dt><dd>React · TypeScript · Flutter<br><span>JavaScript, Sass, REST</span></dd></div>
+        <div><dt class="mono">Availability</dt><dd>Immediately<br><span>immediate joiner</span></dd></div>
+        <div><dt class="mono">Based in</dt><dd>India<br><span>open to remote</span></dd></div>
+      </dl>
+    </section>
+
+    <div class="stackband" aria-label="Core technologies"><div class="wrap">
+      <p class="mono">Tools I ship with</p>
+      <ul>
+        <li>React.js</li><li>TypeScript</li><li>Flutter</li><li>JavaScript</li><li>Core Web Vitals</li><li>Stripe</li><li>PayPal</li><li>Mixpanel</li><li>Claude Code</li><li>Sass</li><li>REST APIs</li><li>Automated testing</li>
+      </ul>
+    </div></div>
+
+    <!-- PROOF -->
+    <section class="section wrap" id="proof">
+      <header class="sec-head" data-reveal>
+        <p class="mono idx">01 / Impact</p>
+        <h2>Results I can<br><em>point to.</em></h2>
+        <p class="sec-sub">Real numbers from my last role at SplashLearn.</p>
       </header>
-      <div class="bento stats">
-        <article class="card stat span-2 reveal">
-          <p class="stat-num"><span data-count="73">73</span><small>%</small></p>
-          <p class="stat-label">less traffic to a core API</p>
-          <p class="stat-note">~3,000 → 800 TPM by adding API caching in Flutter, plus fewer requests to other frequently called APIs.</p>
+
+      <div class="lab" data-reveal>
+        <article class="lab-card" data-lab="build">
+          <p class="mono lab-k">Build size</p>
+          <p class="lab-num"><output data-from="74.4" data-to="39.9" data-dec="1">39.9</output><small> MB</small></p>
+          <p class="was">was 74.4 MB <span class="pill">−46%</span></p>
+          <div class="meter" style="--w:54%"><i></i></div>
+          <p class="lab-sub">Build time <b>15 → 10 min</b></p>
+          <p class="lab-note">Build optimisation and a CDN for Flutter web images.</p>
         </article>
-        <article class="card stat reveal">
-          <p class="stat-num"><span data-count="39.9" data-decimals="1">39.9</span><small> MB</small></p>
-          <p class="stat-label">build size, down from 74.4 MB</p>
-          <p class="stat-note">Build time cut from 15 to 10 min.</p>
+        <article class="lab-card" data-lab="api">
+          <p class="mono lab-k">Core API traffic</p>
+          <p class="lab-num"><output data-from="3000" data-to="800" data-dec="0">800</output><small> TPM</small></p>
+          <p class="was">was ~3,000 TPM <span class="pill">−73%</span></p>
+          <div class="meter" style="--w:27%"><i></i></div>
+          <p class="lab-sub">One of our core APIs</p>
+          <p class="lab-note">API caching in Flutter, plus fewer calls to other frequently used APIs.</p>
         </article>
-        <article class="card stat reveal">
-          <p class="stat-num"><span data-count="90">90</span><small>%+</small></p>
-          <p class="stat-label">automated test coverage</p>
-          <p class="stat-note">Across onboarding and purchase flows.</p>
+        <article class="lab-card" data-lab="cov">
+          <p class="mono lab-k">Automated test coverage</p>
+          <p class="lab-num"><output data-from="0" data-to="90" data-dec="0" data-plus="1">90+</output><small>%</small></p>
+          <p class="was">across onboarding and purchase flows <span class="pill">90%+</span></p>
+          <div class="meter" style="--w:90%"><i></i></div>
+          <p class="lab-sub">Critical user flows</p>
+          <p class="lab-note">Coverage on the flows that make money.</p>
         </article>
-        <article class="card stat reveal">
-          <p class="stat-num"><span data-count="15">15</span><small> pp</small></p>
-          <p class="stat-label">more fast dashboard loads</p>
-          <p class="stat-note">Found &gt;5s loads with Mixpanel, then parallelized calls and added caching.</p>
-        </article>
-        <article class="card stat reveal">
-          <p class="stat-num"><span data-count="100">100</span><small>+</small></p>
-          <p class="stat-label">structured AI prompts written</p>
-          <p class="stat-note">Tuned for better output and lower token use.</p>
-        </article>
-        <article class="card stat span-2 reveal">
-          <p class="stat-num"><span data-count="10">10</span><small>+</small></p>
-          <p class="stat-label">live IoT dashboards shipped</p>
-          <p class="stat-note">Fleet, refrigeration and asset management at IoT83.</p>
-        </article>
+      </div>
+
+      <ul class="chips" data-reveal>
+        <li><b data-count="15">15</b> pp more fast dashboard loads</li>
+        <li><b data-count="100">100</b>+ structured AI prompts</li>
+        <li><b data-count="10">10</b>+ live IoT dashboards</li>
+        <li><b data-count="6">6</b>+ years shipping to production</li>
+      </ul>
+    </section>
+
+    <!-- WORK -->
+    <section class="section wrap" id="work">
+      <header class="sec-head" data-reveal>
+        <p class="mono idx">02 / Case studies</p>
+        <h2>Problem, what I did, result.</h2>
+        <p class="sec-sub">Open any row. Short on purpose.</p>
+      </header>
+
+      <div class="cases" data-reveal>
+        <details class="case" name="case" open>
+          <summary><span class="mono c-idx">01</span><span class="c-title">Rebuilding the purchase page</span><span class="c-metric">Stripe + PayPal</span><span class="c-plus" aria-hidden="true"></span></summary>
+          <div class="c-body">
+            <div><h4 class="mono">Problem</h4><p>SplashLearn's purchase page needed a ground-up rebuild.</p></div>
+            <div><h4 class="mono">What I did</h4><p>Rebuilt it with <b>Stripe Payment Element</b> and <b>PayPal</b>, as part of the onboarding and purchase flows I built in React.js and Flutter.</p></div>
+            <div><h4 class="mono">Result</h4><p>Shipped with <b>90%+ automated test coverage</b> across onboarding and purchase flows.</p></div>
+            <p class="tags"><span>React.js</span><span>TypeScript</span><span>Flutter</span><span>Stripe</span><span>PayPal</span></p>
+          </div>
+        </details>
+        <details class="case" name="case">
+          <summary><span class="mono c-idx">02</span><span class="c-title">Shrinking the build</span><span class="c-metric">−46% size</span><span class="c-plus" aria-hidden="true"></span></summary>
+          <div class="c-body">
+            <div><h4 class="mono">Problem</h4><p>The build had grown to <b>74.4 MB</b> and took <b>15 minutes</b>.</p></div>
+            <div><h4 class="mono">What I did</h4><p>Optimised the build and adopted a <b>CDN</b> for Flutter web images.</p></div>
+            <div><h4 class="mono">Result</h4><p><b>39.9 MB</b> and <b>10 minutes</b>.</p></div>
+            <p class="tags"><span>Flutter</span><span>CDN</span><span>Build optimisation</span></p>
+          </div>
+        </details>
+        <details class="case" name="case">
+          <summary><span class="mono c-idx">03</span><span class="c-title">Taming API traffic</span><span class="c-metric">−73% requests</span><span class="c-plus" aria-hidden="true"></span></summary>
+          <div class="c-body">
+            <div><h4 class="mono">Problem</h4><p>One of our core APIs was taking around <b>3,000 TPM</b>.</p></div>
+            <div><h4 class="mono">What I did</h4><p>Implemented <b>API caching</b> in Flutter and cut requests to other frequently called APIs too.</p></div>
+            <div><h4 class="mono">Result</h4><p>Down to about <b>800 TPM</b>, a <b>73%</b> reduction.</p></div>
+            <p class="tags"><span>Flutter</span><span>API caching</span></p>
+          </div>
+        </details>
+        <details class="case" name="case">
+          <summary><span class="mono c-idx">04</span><span class="c-title">Faster web dashboards</span><span class="c-metric">+15 pp fast loads</span><span class="c-plus" aria-hidden="true"></span></summary>
+          <div class="c-body">
+            <div><h4 class="mono">Problem</h4><p><b>Mixpanel</b> showed too many dashboard loads taking more than 5 seconds.</p></div>
+            <div><h4 class="mono">What I did</h4><p><b>Parallelised API calls</b>, removed redundant async/await and added caching.</p></div>
+            <div><h4 class="mono">Result</h4><p>Fast loads up by about <b>15 percentage points</b>.</p></div>
+            <p class="tags"><span>React.js</span><span>TypeScript</span><span>Mixpanel</span></p>
+          </div>
+        </details>
+        <details class="case" name="case">
+          <summary><span class="mono c-idx">05</span><span class="c-title">Debugging onboarding transitions</span><span class="c-metric">Funnels + TTC</span><span class="c-plus" aria-hidden="true"></span></summary>
+          <div class="c-body">
+            <div><h4 class="mono">Problem</h4><p>Screen-to-screen transition time in onboarding needed a closer look.</p></div>
+            <div><h4 class="mono">What I did</h4><p>Took the initiative to dig in with <b>Mixpanel funnels</b> and <b>Time to Convert</b>.</p></div>
+            <div><h4 class="mono">Result</h4><p>Proposed solutions to cut transition time further.</p></div>
+            <p class="tags"><span>Mixpanel</span><span>Analytics</span></p>
+          </div>
+        </details>
+        <details class="case" name="case">
+          <summary><span class="mono c-idx">06</span><span class="c-title">Homepage SEO and Core Web Vitals</span><span class="c-metric">CWV + SEO</span><span class="c-plus" aria-hidden="true"></span></summary>
+          <div class="c-body">
+            <div><h4 class="mono">Problem</h4><p>The homepage had room to improve on SEO and Core Web Vitals.</p></div>
+            <div><h4 class="mono">What I did</h4><p>Worked on <b>SEO</b> and <b>Core Web Vitals</b> improvements.</p></div>
+            <div><h4 class="mono">Result</h4><p>Improved the homepage's SEO and Core Web Vitals.</p></div>
+            <p class="tags"><span>Core Web Vitals</span><span>SEO</span></p>
+          </div>
+        </details>
+        <details class="case" name="case">
+          <summary><span class="mono c-idx">07</span><span class="c-title">Enterprise IoT dashboards</span><span class="c-metric">~10 live projects</span><span class="c-plus" aria-hidden="true"></span></summary>
+          <div class="c-body">
+            <div><h4 class="mono">Problem</h4><p>IoT customers needed dashboards for fleets, refrigeration and assets.</p></div>
+            <div><h4 class="mono">What I did</h4><p>Built <b>React.js and Sass</b> dashboards with tables, charts and alarms, and reviewed Figma designs for feasibility.</p></div>
+            <div><h4 class="mono">Result</h4><p>Shipped across about <b>10 live IoT projects</b> at IoT83.</p></div>
+            <p class="tags"><span>React.js</span><span>Sass</span><span>Charts</span><span>Figma</span></p>
+          </div>
+        </details>
       </div>
     </section>
 
     <!-- EXPERIENCE -->
-    <section class="section" id="experience">
-      <header class="section-head reveal">
-        <p class="eyebrow">02 / Experience</p>
-        <h2>Where I've worked</h2>
+    <section class="section wrap" id="experience">
+      <header class="sec-head" data-reveal>
+        <p class="mono idx">03 / Experience</p>
+        <h2>Where I've worked.</h2>
       </header>
-      <ol class="timeline">
-        <li class="role reveal">
-          <div class="role-meta">
-            <p class="mono">Mar 2022 – Oct 2026</p>
-            <p class="role-co">SplashLearn</p>
-            <p class="role-loc">Traffic Conversion team</p>
-          </div>
-          <div class="card role-body">
-            <h3>Senior Software Engineer – I <span class="muted">· promoted from Software Engineer</span></h3>
-            <ul class="checks">
-              <li>Built onboarding and purchase flows in <b>React.js</b> and <b>Flutter</b>, including a ground-up rebuild of the purchase page with <b>Stripe Payment Element</b> and <b>PayPal</b>.</li>
-              <li>Reduced build size from 74.4 MB to 39.9 MB and build time from 15 to 10 min; adopted a CDN for Flutter web images.</li>
-              <li>Cut traffic to a core API by 73% (~3,000 to 800 TPM) with API caching in Flutter.</li>
-              <li>Used Mixpanel to find &gt;5s dashboard loads, then parallelized API calls, removed redundant async/await and added caching: fast loads up ~15 percentage points.</li>
-              <li>Improved SEO and Core Web Vitals on the homepage.</li>
-              <li>Took the initiative to debug onboarding screen-to-screen transition time using Mixpanel funnels and Time to Convert, and proposed fixes to cut it further.</li>
-              <li>Reached 90%+ automated test coverage across onboarding and purchase flows.</li>
-              <li>Adopted AI-assisted development (Claude Code, Claude, ChatGPT) for ~2 years across features, refactoring, debugging and codebase exploration.</li>
-            </ul>
-            <div class="tags"><span>React.js</span><span>Flutter</span><span>Stripe</span><span>PayPal</span><span>Mixpanel</span><span>Claude Code</span></div>
-          </div>
-        </li>
-        <li class="role reveal">
-          <div class="role-meta">
-            <p class="mono">Jul 2020 – Feb 2022</p>
-            <p class="role-co">IoT83</p>
-            <p class="role-loc">Software Developer Intern, Jan – Jun 2020</p>
-          </div>
-          <div class="card role-body">
-            <h3>Frontend Developer</h3>
-            <ul class="checks">
-              <li>Built React.js and Sass enterprise dashboards (tables, charts, alarms) across ~10 live IoT projects.</li>
-              <li>Key products: Fleet Management, Refrigeration and Asset Management.</li>
-              <li>Reviewed Figma designs for feasibility and shipped features with leads and product.</li>
-            </ul>
-            <div class="tags"><span>React.js</span><span>Sass</span><span>Dashboards</span><span>Figma</span></div>
-          </div>
-        </li>
-      </ol>
-    </section>
 
-    <!-- WORK / CASE STUDIES -->
-    <section class="section" id="work">
-      <header class="section-head reveal">
-        <p class="eyebrow">03 / Selected work</p>
-        <h2>Case studies, problem to outcome</h2>
-      </header>
-      <div class="bento cases">
-        <article class="card case span-2 reveal">
-          <p class="mono kicker">Purchase flow</p>
-          <h3>Rebuilding the purchase page from the ground up</h3>
-          <p>Owned the rebuild of SplashLearn's purchase page on the Traffic Conversion team, integrating <b>Stripe Payment Element</b> and <b>PayPal</b>, backed by 90%+ automated test coverage across onboarding and purchase flows.</p>
-          <div class="tags"><span>React.js</span><span>Flutter</span><span>Stripe</span><span>PayPal</span></div>
-        </article>
-        <article class="card case reveal">
-          <p class="mono kicker">Build performance</p>
-          <h3>Shrinking the Flutter web build</h3>
-          <div class="before-after"><span>74.4 MB</span><i>→</i><strong>39.9 MB</strong></div>
-          <p>Build time 15 → 10 min, with a CDN for images.</p>
-        </article>
-        <article class="card case reveal">
-          <p class="mono kicker">API efficiency</p>
-          <h3>Taming API traffic</h3>
-          <div class="before-after"><span>~3,000 TPM</span><i>→</i><strong>800 TPM</strong></div>
-          <p>Caching in Flutter cut a core API's traffic by 73%.</p>
-        </article>
-        <article class="card case reveal">
-          <p class="mono kicker">Dashboards</p>
-          <h3>Faster loads for web users</h3>
-          <p>Mixpanel surfaced loads over 5s. Parallelized API calls, removed redundant async/await and added caching, lifting fast loads by about 15 percentage points.</p>
-        </article>
-        <article class="card case reveal">
-          <p class="mono kicker">Funnels</p>
-          <h3>Debugging onboarding transitions</h3>
-          <p>Used Mixpanel funnels and Time to Convert to find slow screen-to-screen transitions and proposed solutions to cut them further.</p>
-        </article>
-        <article class="card case reveal">
-          <p class="mono kicker">SEO &amp; Core Web Vitals</p>
-          <h3>Homepage performance</h3>
-          <p>SEO and Core Web Vitals improvements on the SplashLearn homepage.</p>
-        </article>
-        <article class="card case span-2 reveal">
-          <p class="mono kicker">Enterprise IoT</p>
-          <h3>Dashboards for ~10 live IoT projects</h3>
-          <p>At IoT83, built React.js and Sass dashboards (tables, charts, alarms) for Fleet Management, Refrigeration and Asset Management, reviewing Figma designs for feasibility before build.</p>
-          <div class="tags"><span>React.js</span><span>Sass</span><span>Charts</span><span>Alarms</span></div>
-        </article>
+      <article class="job" data-reveal>
+        <div class="job-meta">
+          <p class="mono">Mar 2022 – Oct 2026</p>
+          <h3>SplashLearn</h3>
+          <p class="job-role">Senior Software Engineer I<br><span>promoted from Software Engineer · Traffic Conversion team</span></p>
+        </div>
+        <div class="job-body">
+          <ul class="dash">
+            <li>Built onboarding and purchase flows in <b>React.js</b> and <b>Flutter</b>, including a ground-up rebuild of the purchase page with <b>Stripe Payment Element</b> and <b>PayPal</b>.</li>
+            <li>Reduced <b>build size from 74.4 MB to 39.9 MB</b> and <b>build time from 15 to 10 min</b>; adopted a <b>CDN</b> for Flutter web images.</li>
+            <li>Cut traffic to a core API by <b>73%</b> (~3,000 to 800 TPM) with <b>API caching</b> in Flutter.</li>
+            <li>Used <b>Mixpanel</b> to find &gt;5s dashboard loads, then <b>parallelized API calls</b>, removed redundant async/await and added caching: fast loads up <b>~15 percentage points</b>.</li>
+            <li>Improved <b>SEO</b> and <b>Core Web Vitals</b> on the homepage.</li>
+            <li>Took the initiative to debug onboarding screen-to-screen transition time using <b>Mixpanel funnels</b> and <b>Time to Convert</b>, and proposed fixes to cut it further.</li>
+            <li>Reached <b>90%+ automated test coverage</b> across onboarding and purchase flows.</li>
+            <li>Adopted <b>AI-assisted development</b> (<b>Claude Code</b>, Claude, ChatGPT) for ~2 years across features, refactoring, debugging and codebase exploration.</li>
+          </ul>
+          <p class="tags"><span>React.js</span><span>TypeScript</span><span>Flutter</span><span>Stripe</span><span>PayPal</span><span>Mixpanel</span><span>Claude Code</span></p>
+        </div>
+      </article>
+
+      <article class="job" data-reveal>
+        <div class="job-meta">
+          <p class="mono">Jul 2020 – Feb 2022</p>
+          <h3>IoT83</h3>
+          <p class="job-role">Frontend Developer<br><span>previously Software Developer Intern, Jan – Jun 2020</span></p>
+        </div>
+        <div class="job-body">
+          <ul class="dash">
+            <li>Built <b>React.js and Sass</b> enterprise dashboards (tables, charts, alarms) across <b>~10 live IoT projects</b>.</li>
+            <li>Key products: Fleet Management, Refrigeration and Asset Management.</li>
+            <li>Reviewed <b>Figma</b> designs for feasibility and shipped features with leads and product.</li>
+          </ul>
+          <p class="tags"><span>React.js</span><span>Sass</span><span>Dashboards</span><span>Figma</span></p>
+        </div>
+      </article>
+
+      <div class="duo" data-reveal>
+        <div>
+          <p class="mono idx">Recognition</p>
+          <p class="duo-big">Meraki Q1'23</p><p class="duo-sub">SplashLearn · Apr 2023</p>
+          <p class="duo-big">Best Performer</p><p class="duo-sub">IoT83 · May 2022</p>
+        </div>
+        <div>
+          <p class="mono idx">Education</p>
+          <p class="duo-big">B.Tech, GLA University</p><p class="duo-sub">Mathura · 2016 – 2020 · CPI 8.69</p>
+        </div>
       </div>
     </section>
 
     <!-- SKILLS -->
-    <section class="section" id="skills">
-      <header class="section-head reveal">
-        <p class="eyebrow">04 / Skills</p>
-        <h2>Toolkit</h2>
+    <section class="section wrap" id="skills">
+      <header class="sec-head" data-reveal>
+        <p class="mono idx">04 / Skills</p>
+        <h2>The toolkit.</h2>
       </header>
-      <div class="bento skills">
-        <article class="card reveal">
-          <h3>Frontend</h3>
-          <div class="tags big"><span>React.js</span><span>Flutter</span><span>JavaScript</span><span>HTML5</span><span>CSS3 / SCSS</span></div>
-        </article>
-        <article class="card reveal">
-          <h3>Integrations &amp; data</h3>
-          <div class="tags big"><span>REST APIs</span><span>Stripe</span><span>PayPal</span><span>API caching</span><span>Mixpanel funnels</span><span>Time to Convert</span></div>
-        </article>
-        <article class="card reveal">
-          <h3>Performance &amp; quality</h3>
-          <div class="tags big"><span>Core Web Vitals</span><span>SEO</span><span>CDN</span><span>Build optimization</span><span>Automated testing</span></div>
-        </article>
+      <div class="skills" data-reveal>
+        <div><h3 class="mono">Frontend</h3><ul><li>React.js</li><li>TypeScript</li><li>JavaScript</li><li>Flutter</li><li>HTML5</li><li>CSS3 / SCSS</li></ul></div>
+        <div><h3 class="mono">Integrations &amp; data</h3><ul><li>REST APIs</li><li>Stripe</li><li>PayPal</li><li>API caching</li><li>Mixpanel funnels</li></ul></div>
+        <div><h3 class="mono">Performance &amp; quality</h3><ul><li>Core Web Vitals</li><li>SEO</li><li>CDN</li><li>Build optimisation</li><li>Automated testing</li></ul></div>
+        <div><h3 class="mono">AI-assisted dev</h3><ul><li>Claude Code</li><li>Claude · ChatGPT</li><li>Prompt &amp; context engineering</li><li>Figma MCP</li><li>Notion MCP</li></ul></div>
       </div>
     </section>
 
     <!-- AI -->
-    <section class="section" id="ai">
-      <header class="section-head reveal">
-        <p class="eyebrow">05 / AI-assisted development</p>
-        <h2>How I work with AI</h2>
-        <p class="section-sub">About two years of daily use across features, refactoring, debugging and codebase exploration. AI writes drafts; I own the decisions, and every change is reviewed before merge.</p>
+    <section class="section wrap" id="ai">
+      <header class="sec-head" data-reveal>
+        <p class="mono idx">05 / AI-assisted development</p>
+        <h2>AI drafts.<br><em>A human decides.</em></h2>
+        <p class="sec-sub">About two years of daily use across features, refactoring, debugging and codebase exploration, with 100+ structured prompts written along the way.</p>
       </header>
-      <div class="bento ai">
-        <article class="card terminal span-2 reveal" aria-label="Example workflow">
-          <div class="term-bar"><i></i><i></i><i></i><span class="mono">claude-code</span></div>
-          <pre class="mono"><span class="c-dim">$</span> claude
-<span class="c-acc">›</span> explore how the purchase flow handles payment errors
-<span class="c-dim">  reading 14 files… mapping state + API calls</span>
-<span class="c-acc">›</span> refactor the cache layer, keep behaviour identical
-<span class="c-dim">  proposed diff ready for review</span>
-<span class="c-acc">✓</span> human review → tests green → merge</pre>
-        </article>
-        <article class="card reveal">
-          <h3>Tools</h3>
-          <div class="tags big"><span>Claude Code</span><span>Claude</span><span>ChatGPT</span><span>Figma MCP</span><span>Notion MCP</span></div>
-        </article>
-        <article class="card reveal">
-          <h3>Prompt &amp; context engineering</h3>
-          <p>100+ structured prompts written for better output and lower token use, with Figma and Notion MCP feeding design and docs context into the work.</p>
-        </article>
-        <article class="card reveal">
-          <h3>Human in the loop</h3>
-          <p>Every AI-assisted change is reviewed before merge, backed by automated tests across critical flows.</p>
-        </article>
-        <article class="card reveal">
-          <h3>Where it helps most</h3>
-          <div class="tags big"><span>New features</span><span>Refactoring</span><span>Debugging</span><span>Codebase exploration</span></div>
-        </article>
-      </div>
-    </section>
-
-    <!-- RECOGNITION + EDUCATION -->
-    <section class="section" id="recognition">
-      <header class="section-head reveal">
-        <p class="eyebrow">06 / Recognition &amp; education</p>
-        <h2>Along the way</h2>
-      </header>
-      <div class="bento recog">
-        <article class="card reveal"><p class="mono kicker">Apr 2023 · SplashLearn</p><h3>Meraki Q1'23</h3></article>
-        <article class="card reveal"><p class="mono kicker">May 2022 · IoT83</p><h3>Best Performer</h3></article>
-        <article class="card reveal"><p class="mono kicker">2016 – 2020</p><h3>B.Tech, GLA University, Mathura</h3><p>CPI 8.69</p></article>
-      </div>
+      <ol class="steps" id="steps" data-reveal>
+        <li class="step"><span class="mono">01</span><h3>Give context</h3><p>Figma and Notion connected through MCP, so the tool sees the design and the docs.</p></li>
+        <li class="step"><span class="mono">02</span><h3>Prompt with structure</h3><p>Structured prompts for better output and lower token use.</p></li>
+        <li class="step"><span class="mono">03</span><h3>Review every change</h3><p>Nothing merges without a human review, including my own.</p></li>
+        <li class="step"><span class="mono">04</span><h3>Let tests decide</h3><p>Automated tests across critical flows keep speed honest.</p></li>
+      </ol>
     </section>
 
     <!-- CONTACT -->
-    <section class="section contact" id="contact">
-      <div class="card contact-card reveal">
-        <p class="eyebrow">07 / Contact</p>
-        <h2>Let's build something <em>fast</em> and <em>good</em>.</h2>
-        <p class="lead">Available to join immediately for senior frontend roles. Open to full-time, contract and freelance work, remote or based in India.</p>
-        <div class="cta">
-          <a class="btn" href="mailto:guptamuskan423@gmail.com?subject=Hello%20Muskan">guptamuskan423@gmail.com</a>
-          <a class="btn btn-ghost" href="https://www.linkedin.com/in/muskangupta427/" target="_blank" rel="noopener">LinkedIn ↗</a>
-          <a class="btn btn-ghost" href="https://github.com/muskangupta423/" target="_blank" rel="noopener">GitHub ↗</a>
-        </div>
+    <section class="section wrap contact" id="contact">
+      <p class="mono idx" data-reveal>06 / Contact</p>
+      <h2 class="big" data-reveal>Ready to join<br><mark>immediately</mark>.</h2>
+      <a class="mail" id="mailLink" href="mailto:guptamuskan423@gmail.com?subject=Hello%20Muskan" data-cursor="Write">guptamuskan423@gmail.com</a>
+      <div class="cta" data-reveal>
+        <button class="btn mag" type="button" id="copyBtn">Copy email</button>
+        <a class="btn btn-ghost mag" href="resume/Muskan_Gupta_Resume_2026.pdf" target="_blank" rel="noopener" download>Download resume ↓</a>
+        <a class="btn btn-ghost mag" href="https://www.linkedin.com/in/muskangupta427/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="btn btn-ghost mag" href="https://github.com/muskangupta423/" target="_blank" rel="noopener">GitHub ↗</a>
       </div>
+      <p class="sr-only" id="copyStatus" aria-live="polite"></p>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer wrap">
     <p>© <span id="year">2026</span> Muskan Gupta</p>
     <p class="mono"><a href="#top">Back to top ↑</a></p>
   </footer>
+
+  <div class="dock" id="dock">
+    <a class="btn btn-sm" href="mailto:guptamuskan423@gmail.com?subject=Hello%20Muskan">Email</a>
+    <a class="btn btn-sm btn-ghost" href="resume/Muskan_Gupta_Resume_2026.pdf" target="_blank" rel="noopener" download>Resume ↓</a>
+  </div>
 
   <script src="scripts/main.js" defer></script>
 </body>
